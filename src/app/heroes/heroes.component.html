@@ -12,6 +12,7 @@
 
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
+  <!-- มีการเรียก component อื่นเข้ามา หรือเรียกว่า app-hero === child component -->
     <app-hero [hero]="hero" (delete)="delete(hero)"></app-hero>
   </li>
 </ul>

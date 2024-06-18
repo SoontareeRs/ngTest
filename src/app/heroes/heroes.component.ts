@@ -11,6 +11,7 @@ import { HeroService } from '../hero.service';
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
 
+  //การต่อ external dependency (1 ใน 3 รูปแบบ)เรียกกระบวนการ dependency injection
   constructor(private heroService: HeroService) {}
 
   ngOnInit() {

@@ -1,3 +1,4 @@
+//lesson 3: service test แบบไม่ได้ต่อกับข้อมูลด้านนอก
 import { MessageService } from '../message.service';
 
 describe('MessageComponent', () => {
